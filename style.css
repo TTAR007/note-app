@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+body {
+    padding: 1rem;
+    min-height: 100vh;
+    min-width: 210px;
+}
+
+h1 {
+    text-align: center;
+    margin-block-end: 1rem;
+}
+
+#create-btn {
+    border: none;
+    background-image: linear-gradient(lightblue, lightskyblue);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-inline: auto;
+    display: block;
+}
+
+#create-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#create-btn:active {
+    opacity: 0.5;
+}
+
+.note_body {
+    margin-block-start: 1rem;
+    margin-inline: auto;
+    border: 1px solid #000;
+    background-color: rgb(255, 232, 188);
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 650px;
+    position: relative;
+}
+
+.note_body p {
+    padding: 1rem;
+    padding-block-end: 2rem;
+    line-height: 24px;
+    outline: none;
+}
+
+.delete-btn {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+
+    padding: 2px 6px;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
